@@ -40,6 +40,9 @@ PS2='> '
 # Don't save duplicate commands to the history
 HISTCONTROL=ignoredups
 HISTTIMEFORMAT=$'\b|\e[34m%m/%d/%Y %H:%M:%S\e[m| '
+HISTFILESIZE=
+HISTSIZE=
+shopt -s histappend
 
 # Alias `ls` to `exa` or enable color in `ls`
 if command -v exa > /dev/null; then
