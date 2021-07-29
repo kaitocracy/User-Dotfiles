@@ -15,14 +15,12 @@ let g:polyglot_disabled = ['autoindent', 'markdown', 'sensible']
 
 call plug#begin('~/.vim/plug')
 Plug 'chriskempson/base16-vim'
-Plug 'deris/vim-shot-f'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'ktchen14/colonize'
 Plug 'ktchen14/cscope-auto'
 Plug 'ktchen14/status-symbol'
 Plug 'ktchen14/vim-star'
-Plug 'majutsushi/tagbar'
 Plug 'neovim/nvim-lspconfig'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
@@ -451,12 +449,6 @@ set laststatus=2
 " vim-markdown
 
 let g:markdown_fenced_languages = ['bash=sh', 'python']
-
-" tagbar
-
-let g:tagbar_indent = 0
-let g:tagbar_sort = 0
-nmap <Leader>tt :TagbarToggle<CR>
 
 "" Test Area
 
